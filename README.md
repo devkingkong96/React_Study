@@ -1,4 +1,4 @@
-# 리액트 관련 명령어
+# 리액트 애플리케이션 명령어
 
 # Getting Started with Create React App
 
