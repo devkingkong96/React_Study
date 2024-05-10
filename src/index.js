@@ -9,7 +9,8 @@ import reportWebVitals from './reportWebVitals';
 // import CommentList from './chapter_05/comment-list';
 // import NotificationList from './chapter_06/NotificationList';
 // import Accommodate from './chapter_07/Accommodate';
-import ConfirmButton from './chapter_08/confirmbutton';
+// import ConfirmButton from './chapter_08/confirmbutton';
+import LandingPage from './chapter_09/LandingPage';
 
 // React 18에서 새로운 root API 사용
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -52,10 +53,18 @@ import ConfirmButton from './chapter_08/confirmbutton';
 //   document.getElementById('root')
 // );
 
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <ConfirmButton />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
